@@ -37,7 +37,7 @@ const spreadOut = () => {
 console.log(spreadOut())
 
 
-let number = [1, 2, 3 ,6 ,9]
+let number = [1, 2, 3, 6 ,7]
 let numbers = [4, 5]
 let total = number.concat(numbers)
 console.log(total)
