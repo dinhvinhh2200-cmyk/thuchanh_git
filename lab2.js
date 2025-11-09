@@ -35,3 +35,9 @@ const spreadOut = () => {
 	return sentence
 }
 console.log(spreadOut())
+
+
+let number = [1, 2, 3]
+let numbers = [4, 5]
+let total = number.concat(numbers)
+console.log(total)
