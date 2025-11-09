@@ -42,4 +42,4 @@ let numbers = [4, 5]
 let total = number.concat(numbers)
 console.log(total)
 
-// test git pull ở folder lab2
+// test git pull ở folder lab2 và test confilct
