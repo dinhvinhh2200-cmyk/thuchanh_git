@@ -43,3 +43,18 @@ let total = number.concat(numbers)
 console.log(total)
 
 // test git pull ở folder lab2 và test confilct
+
+////// bài 5
+
+const users = [
+	{id: 1, name: 'An', age: 20, city: 'Hà Nội'}, 
+	{id: 2, name: 'Bình', age: 22, city: 'Đà nẵng'}, 
+	{id: 3, name: 'Chi', age: 23, city: 'Hồ Chí Minh'} 
+]
+
+const updateUser = {id: 2, age: 23, city: 'Huế'}
+
+let newUsers = users.map((user) => {
+	return user.id === updateUser.id ? {...user, ...updateUser} : user
+})
+console.log(newUsers)
